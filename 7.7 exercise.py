@@ -2,7 +2,6 @@ def outputTable(title, header1, header2, strList, intList):
    """
        Function that prints the contents in tabular format
    """
-  
 # Printing title
    print('\n %33s \n' %(title));
   
@@ -15,7 +14,6 @@ def outputTable(title, header1, header2, strList, intList):
        print('\n %-20s %-10s %-23d ' %(strList[i], '|', intList[i]));      
    print('\n');
 
-  
 def outputHistogram(strList, intList):
    """
        Function that prints the contents in tabular format
@@ -31,7 +29,6 @@ def outputHistogram(strList, intList):
            print('*', end='');
       
    print("\n");
-  
   
 def chkCommas(dataPoint):
    """
@@ -67,7 +64,7 @@ def main():
    """
        Main function
    """
-  
+   
 # List's to hold data
    strList = [];
    intList = [];
